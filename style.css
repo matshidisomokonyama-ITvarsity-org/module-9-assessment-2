@@ -1,0 +1,50 @@
+body {
+    font-family: "Realway", sans-serif;
+    background-color:black;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-style: "Realway", sans-serif;
+    
+  
+}
+
+#local {
+    width: 100%;
+    background-color: palevioletred;
+    padding: 15px 0;
+    margin: 0;
+    border-bottom: 5px solid black;
+   
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+#cities {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#cities td {
+    border:1px solid #dedede;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even) {
+    background-color: gray;
+}
+
+.col1 {
+    width: 10%;
+}
+
+.col2 {
+    width: 45%;
+}
